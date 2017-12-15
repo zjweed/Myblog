@@ -1,6 +1,22 @@
 ---
-title: Hello World
+title: hello Hexo
+date: 2017-12-13 21:58:41
+description: Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+categories:
+- Hexo
+
+tags:
+- QuickStart
+toc: true 文章目录
+author:
+comments:
+original:
+permalink:
 ---
++ <!-- more -->
+<The rest of contents | 余下全文>
+
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
