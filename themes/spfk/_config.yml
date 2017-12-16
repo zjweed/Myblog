@@ -64,8 +64,8 @@ gitment:
   on: true
   owner: zjweedsMine
   repo: http://blog.zjweeds.cn
-  client_id: 5003c08b137c3a4c0ae2
-  client_secret: c78bc80fbcdba201f27197f5623ff428f38ebe07
+  client_id: 47e086286a53f0a1edd2
+  client_secret: c8b4d06a25090caec70b9ff8d1435f327aab8876
 
 youyan:
   #on: true
@@ -110,7 +110,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: 大航海 #修改more>>的文字
+excerpt_link: 阅读全文 #修改more>>的文字
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
@@ -136,7 +136,7 @@ friends:
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
 
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording1: '纯属好玩'
 reward_wording2: '扫码打赏，你说多少就多少'
