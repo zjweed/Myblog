@@ -2,9 +2,10 @@
 title: ElementUI 入坑
 date: 2017-12-15 21:08:41
 description: Element UI 是一套采用 Vue 2.0 作为基础框架实现的组件库.它面向企业级的后台应用，能够帮助你快速地搭建网站，极大地减少研发的人力与时间成本.简单易读的文档，配合常用实例，快速上手
+cover_picture: http://element-cn.eleme.io/static/web.61b1f33.png
 
 categories:
-- 心得分享
+- 雅
 
 tags:
 - ElementUI
@@ -15,7 +16,8 @@ comments:
 original:
 permalink:
 ---
-+ <!-- more -->
+Element UI 是一套采用 Vue 2.0 作为基础框架实现的组件库.它面向企业级的后台应用，能够帮助你快速地搭建网站，极大地减少研发的人力与时间成本.简单易读的文档，配合常用实例，快速上手
+ <!-- more -->
 <The rest of contents | 余下全文>
 
 ### Element UI 是什么
@@ -32,9 +34,10 @@ permalink:
 - 活跃的社区，依靠社区有强大的技术支持，不怕没有帮手，就怕你不会提问
 - 提供Axure Components，让产品经理的设计稿和开发的页面保持一致
 ---
-###  这么厉害怎么引入使用呢？
 
-### Element UI 安装
+###  Element UI 安装
+
+>这么厉害怎么引入使用呢？
 
 CDN 引入
 ```
@@ -60,19 +63,21 @@ unpkg 的cdn 极不稳定！！！！！！
 - 项目根目录下生成的lib文件夹
 
 ---
+
 ### Element UI 组件说明
 
 看文档
----
 *文档太长不想看？划重点！！！*
----
-###### 重点组件
+
+#### 重点组件
 - [form 表单](http://element.eleme.io/#/zh-CN/component/form)
 - [table](http://element.eleme.io/#/zh-CN/component/table)
 - [pagination](http://element.eleme.io/#/zh-CN/component/pagination)
 - [upload](http://element.eleme.io/#/zh-CN/component/upload)
 - [dialog](http://element.eleme.io/#/zh-CN/component/dialog)
+
 ---
+
 ### Element UI  那些坑
 
 #### No.1 消失的穿梭框
@@ -107,12 +112,12 @@ unpkg 的cdn 极不稳定！！！！！！
   - 调异步前不要重置 总数量
   - ajax 改为同步
 ---
----
 #### No.5 被遗忘的单向数据流
 - 以下一段话来自官方文档
 在一些情况下，我们可能会需要对一个 prop 进行“双向绑定”...这很方便，但也会导致问...当光看子组件的代码时，你完全不知道它何时悄悄地改变了父组件的状态...从 2.3.0 起 .sync 修饰符，只是作为一个编译时的语法糖存在。它会被扩展为一个自动更新父组件属性的 v-on 监听器。
 ---
-### Element UI  的扩展
+
+### Element UI的扩展
 
 ####  插件
 Element UI 已经帮我们完成了一些基础组件，但是结合业务场景，一些我们使用的到的组件仍然没有实现，需要我们自己扩展
@@ -123,6 +128,7 @@ Element UI 已经帮我们完成了一些基础组件，但是结合业务场景
 - Table 内联编辑
 .......
 ---
+
 #### 扩展阅读
 
 [与iview 的对比](https://zhuanlan.zhihu.com/p/27479767)
@@ -165,6 +171,7 @@ src目录的 main.js 引入
 $npm run dev
 ```
 ---
+
 ### 安利一波的其他组件
 
 - [mintui](http://mint-ui.github.io/docs/#/zh-cn2)

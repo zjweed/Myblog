@@ -25,7 +25,7 @@ favicon: img/favicon.png
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
   # mail: ""
-  github: "https://github.com/luuman"
+  github: "https://github.com/zjweedsMine"
   zhihu: "https://www.zhihu.com/people/you-cao-61/activities"
   weibo: "https://weibo.com/916520727"
   #google: "#"
@@ -146,7 +146,7 @@ alipay: /img/alipay.png
 weixin: /img/weixin.png
 
 #是否开启“关于我”。
-aboutme: 只好用勤奋来掩饰我的天才
+aboutme: 君看一叶舟，出没风波里
 #aboutme: false
 
 # 是否在新窗口打开链接
