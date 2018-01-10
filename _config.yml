@@ -77,6 +77,6 @@ theme: miho
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:zjweedsMine/Myblog.git
-  branch: master
+  #type: git
+  #repo: git@github.com:zjweedsMine/Myblog.git
+  #branch: master
